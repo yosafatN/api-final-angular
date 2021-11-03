@@ -39,10 +39,10 @@ namespace PaymentAPIVS
         {
 
             //Online
-            //string MySqlConnectionString = Configuration.GetConnectionString("DefaultConnection");
+            string MySqlConnectionString = Configuration.GetConnectionString("DefaultConnection");
 
             //Offline
-            string MySqlConnectionString = Configuration.GetConnectionString("DefaultConnectionOffline");
+            //string MySqlConnectionString = Configuration.GetConnectionString("DefaultConnectionOffline");
             
             services.AddDbContext<ApiDbContext>(options => options.UseMySql(
                MySqlConnectionString, ServerVersion.AutoDetect(MySqlConnectionString)
