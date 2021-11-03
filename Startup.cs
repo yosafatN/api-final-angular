@@ -43,7 +43,7 @@ namespace PaymentAPIVS
 
             //Offline
             //string MySqlConnectionString = Configuration.GetConnectionString("DefaultConnectionOffline");
-            
+
             services.AddDbContext<ApiDbContext>(options => options.UseMySql(
                MySqlConnectionString, ServerVersion.AutoDetect(MySqlConnectionString)
             ));
@@ -74,7 +74,7 @@ namespace PaymentAPIVS
             });
 
             services.AddDefaultIdentity<IdentityUser>(option => option.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<ApiDbContext>();
-            
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

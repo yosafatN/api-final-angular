@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\OCBC Assignment\\Final Project Angular\\ApiPaymentApp\\backend-angular\\PaymentAPIVS.csproj": {}
+    "E:\\OCBC Assignment\\Final Project Angular\\ApiPaymentApp\\api-final-angular\\PaymentAPIVS.csproj": {}
   },
   "projects": {
-    "E:\\OCBC Assignment\\Final Project Angular\\ApiPaymentApp\\backend-angular\\PaymentAPIVS.csproj": {
+    "E:\\OCBC Assignment\\Final Project Angular\\ApiPaymentApp\\api-final-angular\\PaymentAPIVS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\OCBC Assignment\\Final Project Angular\\ApiPaymentApp\\backend-angular\\PaymentAPIVS.csproj",
+        "projectUniqueName": "E:\\OCBC Assignment\\Final Project Angular\\ApiPaymentApp\\api-final-angular\\PaymentAPIVS.csproj",
         "projectName": "PaymentAPI",
-        "projectPath": "E:\\OCBC Assignment\\Final Project Angular\\ApiPaymentApp\\backend-angular\\PaymentAPIVS.csproj",
+        "projectPath": "E:\\OCBC Assignment\\Final Project Angular\\ApiPaymentApp\\api-final-angular\\PaymentAPIVS.csproj",
         "packagesPath": "C:\\Users\\Omen\\.nuget\\packages\\",
-        "outputPath": "E:\\OCBC Assignment\\Final Project Angular\\ApiPaymentApp\\backend-angular\\obj\\",
+        "outputPath": "E:\\OCBC Assignment\\Final Project Angular\\ApiPaymentApp\\api-final-angular\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Omen\\AppData\\Roaming\\NuGet\\NuGet.Config",
