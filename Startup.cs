@@ -134,7 +134,7 @@ namespace PaymentAPIVS
                 .AllowAnyHeader()
             );
 
-            //app.UseHttpsRedirection();
+            app.UseHttpsRedirection();
 
             app.UseRouting();
 
